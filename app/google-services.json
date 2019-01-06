@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "624414739129",
+    "firebase_url": "https://motiondetection-c1e7c.firebaseio.com",
+    "project_id": "motiondetection-c1e7c",
+    "storage_bucket": "motiondetection-c1e7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624414739129:android:e9df73942f984361",
+        "android_client_info": {
+          "package_name": "com.digipodium.app.motiondetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624414739129-pbvt58guevu1b0mnma8kevk0mu49bva1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXLzTJs_TJKyGbOqNnABlDXdRq0uYcrt4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
