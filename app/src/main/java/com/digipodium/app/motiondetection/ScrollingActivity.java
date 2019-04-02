@@ -23,7 +23,7 @@ public class ScrollingActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(ScrollingActivity.this,LoginActivity.class);
+                Intent i = new Intent(ScrollingActivity.this, LoginActivity.class);
                 startActivity(i);
                 finish();
             }
@@ -45,10 +45,14 @@ public class ScrollingActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
+
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            Intent intent = new Intent(ScrollingActivity.this, SettingActivity.class);
+            startActivity(intent);
         }
+
+
         return super.onOptionsItemSelected(item);
     }
 }

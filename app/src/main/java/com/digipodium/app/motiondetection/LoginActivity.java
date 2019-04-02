@@ -47,6 +47,14 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
         auth = FirebaseAuth.getInstance();
+        final Button btn2=findViewById(R.id.register);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(LoginActivity.this,RegisterMemberActivity.class);
+                startActivity(i);
+            }
+        });
 
         btn.setOnClickListener(new View.OnClickListener() {
 
